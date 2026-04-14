@@ -21,7 +21,7 @@ Process to follow the development branch:
   b. git reset --hard origin/development
 3. if you want to:
   a. Add a new branch to development then add it to the end of branches file which could be found at the top of the repo
-  b. Remove a branch from development then remove from development_branches file
+  b. Remove a branch from development then remove from branches file
   c. Pull in the latest copy of a branch alredy in development
 '''
 }
