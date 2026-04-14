@@ -16,6 +16,13 @@ Releases are done from the main branch after all the feature branches required f
 
 ## Workflow example
 
+To get started, create initial development branch
+```bash
+git checkout main
+git checkout -b development
+git push -- set-upstream origin development
+```
+
 Each developer, while starting a new feature branch, always creates it off the main branch.
 
 ```bash
@@ -36,7 +43,6 @@ git rebase origin/main
 git push --force-with-lease
 git checkout development
 git reset --hard origin/development
-
 # edit 'branches' file and add feature_1 to the end of file
 ./restack.sh
 ```
