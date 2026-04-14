@@ -45,3 +45,11 @@ In the happy case of no conflicts, the development branch is restacked cleanly a
 
 In case of conflict, the conflict needs to be resolved.
 
+## Example of `branches` file:
+
+```bash
+main
+feature_1
+feature_2
+```
+
