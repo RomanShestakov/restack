@@ -1,3 +1,7 @@
+# Welcome to Restack
+
+> A simple, powerful git workflow tool for managing feature branches and development environments.
+
 # Restack
 
 Implementation of a simple git workflow.
