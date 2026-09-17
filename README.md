@@ -18,9 +18,21 @@ This workflow solves a general problem when working in a team of developers with
 
 Releases are done from the main branch after all the feature branches required for the release have been merged. After that, rerunning `restack.sh` will remove redundant (merged) branches from the `branches` file.
 
+ATTENTION: `branches` file is expected to live *only* on `development` branch, not in `main`
+
 ## Workflow example
 
-To get started, create initial development branch
+To get started, add restack.sh to the main branch
+
+```bash
+git checkout main
+cp ../restack/restack.sh .
+git add restack.sh
+git commit -m'add restack'
+git push -- set-upstream origin main
+```
+
+create initial development branch
 ```bash
 git checkout main
 git checkout -b development
